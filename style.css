@@ -32,3 +32,12 @@ body {
     border-radius: 5px;
     background: #8a6cff;
 }
+
+.color .hex-value{
+
+    display: block;
+    font-size: 1.15rem;
+    font-weight: 500 ;
+    margin: 1;
+
+}
