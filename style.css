@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
 
-*{
-    margin : 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
 }
 
-body{
+body {
     background: #e3f2fd;
 }
 
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
 }
 
 .container .color {
-    list-style: none;  
-    margin: 13px; 
+    list-style: none;
+    margin: 13px;
     padding: 7px;
     border-radius: 6px;
     text-align: center;
@@ -26,9 +26,9 @@ body{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
 }
 
-.container .rect-box{
+.container .rect-box {
     width: 185px;
     height: 185px;
     border-radius: 5px;
-    background: #8a6cff ;
+    background: #8a6cff;
 }
