@@ -8,12 +8,14 @@
 }
 
 body {
-    background: #e3f2fd;
+    background: rgb(0, 0, 0);
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
 }
 
 .container .color {
@@ -22,8 +24,15 @@ body {
     padding: 7px;
     border-radius: 6px;
     text-align: center;
-    background: #fff;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2)
+    background: #252525;
+    box-shadow: 0 10px 20px #896cff77 ;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.container .color:active{
+    transform: scale(0.9);
+    box-shadow: 0 20px 30px #896cffbd;
 }
 
 .container .rect-box {
@@ -31,6 +40,7 @@ body {
     height: 185px;
     border-radius: 5px;
     background: #8a6cff;
+    margin: 5px 5px;
 }
 
 .color .hex-value{
@@ -38,6 +48,6 @@ body {
     display: block;
     font-size: 1.15rem;
     font-weight: 500 ;
-    margin: 1;
-
+    margin: 12px 0 8px;
+    color: rgba(255, 255, 255, 0.833); 
 }
