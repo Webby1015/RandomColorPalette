@@ -59,26 +59,29 @@ body {
     color: rgba(255, 255, 255, 0.833); 
 }
 
-.refresh{
+.refresh{position: fixed;
+    left: 45%;
+    bottom: 40px;
     outline: none;
     padding : 12px 20px;
     font-size : 1.1rem;
     font-weight: 500;
     color: #ffffff;
     background-color: black;
-    border-radius: 12px;
+    border-radius: 5px;
     border: 2px solid white;
     cursor: pointer;
-    box-shadow: 0 10px 15px #896cffbd;
+    box-shadow: 0 10px 15px #ffffffbd;
     transition: transform 0.3s ease;
+    /* transform: translateX(-50%); */
 }
 .refresh:hover {
     filter: brightness(130%);
-    box-shadow: 0 15px 20px #896cffbd
+    box-shadow: 0 15px 20px #ffffffbd
 }
 
 .refresh:active{
     
     transform: scale(0.9);
-    box-shadow: 0 20px 30px #896cffbd
+    box-shadow: 0 20px 30px #ffffffbd
 }
