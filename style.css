@@ -57,6 +57,7 @@ body {
     font-weight: 500 ;
     margin: 12px 0 8px;
     color: rgba(255, 255, 255, 0.833); 
+    text-transform: uppercase;
 }
 
 .refresh{position: fixed;
@@ -84,4 +85,25 @@ body {
     
     transform: scale(0.9);
     box-shadow: 0 20px 30px #ffffffbd
+}
+
+@media screen and (max-width: 510px) {
+    .container {
+        margin:10px;
+    }
+    
+    .container .color {
+        margin: 8px;
+        padding: 5px;
+
+    }
+
+    .color .rect-box{
+        width: 145px;
+        height: 148px;
+    }
+
+    .color .hex-value{
+        font-size: 1.05rem;
+    }
 }
