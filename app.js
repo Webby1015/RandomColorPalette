@@ -2,6 +2,7 @@ const container = document.querySelector(".container")
 const refresh = document.querySelector(" .refresh");
 const maxPaletteBoxes = 32;
 const generatePalette = ()=>{
+    container.innerHTML="";
     for(let i =0;i<maxPaletteBoxes;i++){
         let randomHex = Math.floor(Math.random()* 0xffffff).toString(16);
         randomHex = `#${randomHex.padStart(6,"0")}`;
@@ -13,4 +14,5 @@ const generatePalette = ()=>{
         container.appendChild(color);
     }
 }
+generatePalette()
 refresh.addEventListener("click",generatePalette);
